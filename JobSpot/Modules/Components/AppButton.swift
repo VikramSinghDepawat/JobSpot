@@ -9,19 +9,29 @@ import SwiftUI
 
 struct AppButton: View {
     var title: String = "Default Button"
+    var iconName: String? = nil
+    var textColor: Color = .white
+    var cornerRadius: CGFloat = 10
     var backgroundColor: Color = .bg
     var action: () -> Void = {}
     
     var body: some View {
         Button(action: action) {
-            Text(title)
-                .font(.headline)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity)
-                .frame(height: 50)
-                .background(backgroundColor)
-                .clipShape(RoundedRectangle(cornerRadius: 8))
+            HStack(spacing: 8) {
+                if let iconName {
+                    Image(iconName)
+                        .foregroundStyle(textColor)
+                }
+                
+                Text(title)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(textColor)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
+        .frame(height: 50)
+        .background(backgroundColor)
+        .cornerRadius(cornerRadius)
     }
 }
 

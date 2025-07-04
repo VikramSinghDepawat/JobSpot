@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JobSpot" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
-                                <rect key="frame" x="125.33333333333333" y="404.66666666666669" width="142.33333333333337" height="43"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <rect key="frame" x="152.66666666666666" y="411" width="87.666666666666657" height="30.333333333333314"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vfq-ZG-T1X">
-                                <rect key="frame" x="166.66666666666666" y="334.66666666666669" width="60" height="60"/>
+                                <rect key="frame" x="166.66666666666666" y="341" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vfq-ZG-T1X" secondAttribute="height" multiplier="1:1" id="YK7-xs-LFt"/>
                                     <constraint firstAttribute="height" constant="60" id="gUn-To-3AR"/>
